@@ -23,13 +23,19 @@ namespace school_grades_arrays
             //Console.WriteLine(studentGrade[4]);
             #endregion
 
+            #region format 2
             var studentGrades = new int[] { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 };
 
+            //Console.WriteLine(studentGrades[5]);
+
+
+            // foreach allows us to cycle through each student grade instead of doing a writeline for every array slot
             foreach (var studentGrade in studentGrades)
             {
-            Console.WriteLine(studentGrade);
+                Console.WriteLine(studentGrade);
 
             }
+            #endregion
 
         }
     }
